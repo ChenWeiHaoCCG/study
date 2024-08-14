@@ -4,11 +4,20 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="d3hzj_n655Mc2UOrFgAX-1" value="一级缓存：&lt;div&gt;&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 13.5pt;&quot;&gt;Map&amp;lt;String, Object&amp;gt; &lt;span style=&quot;color:#660e7a;font-weight:bold;&quot;&gt;singletonObjects&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="d3hzj_n655Mc2UOrFgAX-1" value="一级缓存：&lt;div&gt;&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 13.5pt;&quot;&gt;Map&amp;lt;String, Object&amp;gt; &lt;span style=&quot;color:#660e7a;font-weight:bold;&quot;&gt;singletonObjects&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="410" y="310" width="370" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="d3hzj_n655Mc2UOrFgAX-2" value="一级缓存：&lt;div&gt;&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 13.5pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 13.5pt;&quot;&gt;Map&amp;lt;String, Object&amp;gt; &lt;span style=&quot;color:#660e7a;font-weight:bold;&quot;&gt;earlySingletonObjects&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="510" width="390" height="100" as="geometry" />
+        <mxCell id="d3hzj_n655Mc2UOrFgAX-2" value="二级缓存：&lt;div&gt;&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 13.5pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 13.5pt;&quot;&gt;Map&amp;lt;String, Object&amp;gt; &lt;span style=&quot;color:#660e7a;font-weight:bold;&quot;&gt;earlySingletonObjects&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="940" y="300" width="390" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="d3hzj_n655Mc2UOrFgAX-3" value="&lt;pre style=&quot;background-color:#ffffff;color:#000000;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="680" width="470" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d3hzj_n655Mc2UOrFgAX-4" value="三级缓存：&lt;div&gt;&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 13.5pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 13.5pt;&quot;&gt;Map&amp;lt;String, ObjectFactory&amp;lt;?&amp;gt;&amp;gt; &lt;span style=&quot;color:#660e7a;font-weight:bold;&quot;&gt;singletonFactories&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="300" width="450" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="d3hzj_n655Mc2UOrFgAX-5" value="&lt;b&gt;实例化Bean&lt;/b&gt;&lt;div&gt;&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 13.5pt;&quot;&gt;&lt;b&gt;createBeanInstance()&lt;/b&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="585" width="235" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
